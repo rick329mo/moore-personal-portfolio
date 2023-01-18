@@ -8,14 +8,6 @@ import "./styles.css"
 function App() {
  return (
     <div className='flex'>
-      <nav>
-        <ul>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/aboutme">About Me</Link></li>
-          <li><Link to="/projects">Projects</Link></li>
-          <li><Link to="/contact">Contact</Link></li>
-        </ul>
-      </nav>
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -24,6 +16,14 @@ function App() {
           <Route path='/projects' element={<Projects />} />
         </Routes>
       </main>
+      <nav>
+        <ul>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/aboutme">About Me</Link></li>
+          <li><Link to="/projects">Projects</Link></li>
+          <li><Link to="/contact">Contact</Link></li>
+        </ul>
+      </nav>
     </div>
   )
 }
