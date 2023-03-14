@@ -61,3 +61,7 @@ main {
     font-weight: 100;
     letter-spacing: 1px;
 }
+
+p {
+    margin-top: .2em;
+}
